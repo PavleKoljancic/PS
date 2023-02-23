@@ -32,5 +32,9 @@ public class Show {
 		String [] arr =  {"Cao","Kolege"};
         return arr;
 	}
-
+    @GetMapping(path = "/pavle")
+	public String getStudents() 
+	{
+		return "pavle";
+	}
 }
