@@ -37,4 +37,9 @@ public class Show {
 	{
 		return "pavle";
 	}
+	@GetMapping(path = "/bane")
+	public String b() 
+	{
+		return "bane";
+	}
 }
