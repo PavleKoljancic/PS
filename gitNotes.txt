@@ -1,0 +1,63 @@
+git
+directory <==> tree
+file <==> blob	
+
+fork znaci djelic od glavnog branch-a
+merge spaja dva forka u jedan
+
+git init // comada za incijalizaciju 
+
+git status/ da pregledas trenutni snapshot
+
+git commit // pravi taj neki snapshot
+
+git add <filename> //dodaje dati fajl za pracenje
+
+ git config --global user.email "you@example.com"
+ git config --global user.name "Your Name"
+
+to set your accounts default identity.
+Omit --global to set the identity only in this repository.
+
+git commit -a dodaje sve sto se trackuje
+
+git log --all --graph --decorate
+git log --all --graph --decorate --oneline
+
+git checkout HASH // vraca me na taj commit 
+
+git diff // changes since last snapshot
+
+git diff HASH filename // changes  to the file since that commit
+
+git branch //daje sve branhceve
+git branch BRANCH_NAME //stvori novi name koji pontuje na isto mjesto ko HEAD
+
+kad nastane conflict mozes mergetool
+
+git merge --abort // abortuje proces mergovanja
+
+git remote??
+
+git add <name> <url>
+git push <remote> <local branch>:<remote branch>
+
+git clone <url> <dir name>
+
+git fetch <remote> //daje promjene sa remota na tvoju lokalnu masinu
+
+git add -p <filename>  //kad hocemo da dodajemo djelovej datih izmjena u fajlu
+
+git show <HASH> // pokazujeme promjene i komentare datog komita
+
+git blame // ?? nesto oko promjena 
+
+git bisect// trazi promjenu tipa ako Unit test prestane raditi
+
+vim .gitignore // lista fajlova koje ne prati moraju biti dati apsolutni pathovi
+
+
+git brnahc -d <brnahcname> //brisanje git brancha 
+
+
+
