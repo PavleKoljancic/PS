@@ -37,4 +37,10 @@ public class Show {
 	{
 		return "pavle";
 	}
+
+	@GetMapping(path = "/kezija")
+	public String getTmp() 
+	{
+		return "kezijaa";
+	}
 }
