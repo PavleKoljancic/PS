@@ -37,9 +37,9 @@ public class Show {
 	{
 		return "pavle";
 	}
-	@GetMapping(path = "/nebojsa")
+	@GetMapping(path = "/sone")
 	public String getStudents11()
 	{
-		return "Nebojsa";
+		return "Sone";
 	}
 }
