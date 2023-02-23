@@ -41,5 +41,14 @@ public class Show {
 	public String getStudents11()
 	{
 		return "Sone";
+	@GetMapping(path = "/bane")
+	public String b() 
+	{
+		return "bane";
+	}
+	@GetMapping(path = "/kezija")
+	public String getTmp() 
+	{
+		return "kezijaa";
 	}
 }
