@@ -41,6 +41,7 @@ public class Show {
 	public String getStudents11()
 	{
 		return "Sone";
+	}
 	@GetMapping(path = "/bane")
 	public String b() 
 	{
