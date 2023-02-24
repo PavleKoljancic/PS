@@ -1,20 +1,13 @@
-package test.project.demo.MnozenjeTest;
-
+package test.project.demo.OduzimanjeTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
-
-public class MnozenjeTest {
-
+public class OduzimanjeTest {
     @Test
     public  void myTestMethod() 
     {
-        assertEquals(6, 2*3);
-        
+        assertEquals(-1, 2-3);
     }
-
-
-    
 }
