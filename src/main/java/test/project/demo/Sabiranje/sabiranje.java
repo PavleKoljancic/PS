@@ -16,7 +16,7 @@ public class sabiranje {
 	}
 
 	@PostMapping(value = "")
-    public int saberi(@RequestBody brojevi br) {
-        return br.getBr1() + br.getBr2();
+    public double saberi(@RequestBody Operatori br) {
+        return br.getA() + br.getB();
     }
 }
