@@ -11,7 +11,7 @@ public class MnozenjeTest {
     @Test
     public  void myTestMethod() 
     {
-        assertEquals(5, 2+3);
+        assertEquals(6, 2*3);
         
     }
 
