@@ -14,6 +14,7 @@ public class Mnozenje {
     Mnozenje( ) {}
     @PostMapping(value="")
     public double postMethodName(@RequestBody Operatori entity) {
+        System.out.println("aaaa");
       
         return entity.getA()*entity.getB();
     }
