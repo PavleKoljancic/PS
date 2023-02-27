@@ -61,4 +61,9 @@ public class Show {
 	{
 		return "Pobjeda";
 	}
+	@GetMapping(path = "/f2")
+	public String f2() 
+	{
+		return "f2";
+	}
 }
