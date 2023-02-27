@@ -56,4 +56,9 @@ public class Show {
 	{
 		return "Nova grana";
 	}
+	@GetMapping(path = "/pobjeda")
+	public String getPobjeda() 
+	{
+		return "Pobjeda";
+	}
 }
