@@ -36,6 +36,11 @@ public class Show {
 	{
 		return "Pavle Koljancic";
 	}
+	@GetMapping(path = "/pavle2")
+	public String getStudents2() 
+	{
+		return "Pavle Koljancic2";
+	}
 	@GetMapping(path = "/sone")
 	public String getStudents11()
 	{
