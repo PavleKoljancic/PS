@@ -75,4 +75,9 @@ public class Show {
 	{
 		return "Nova funkcionalnost";
 	}
+	@GetMapping(path = "/dejanovadrugaNova")
+	public String getFukcionalnostNovaDruga() 
+	{
+		return "Nova funkcionalnost";
+	}
 }
