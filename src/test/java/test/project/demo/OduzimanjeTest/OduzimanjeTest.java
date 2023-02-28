@@ -9,5 +9,6 @@ public class OduzimanjeTest {
     public  void myTestMethod() 
     {
         assertEquals(-1, 2-3);
+        assertEquals(2.0,4.0-2);
     }
 }
