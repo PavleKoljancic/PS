@@ -56,6 +56,11 @@ public class Show {
 	{
 		return "bane";
 	}
+	@GetMapping(path = "/bane1")
+	public String b1() 
+	{
+		return "bane1";
+	}
 	@GetMapping(path = "/kezija")
 	public String getTmp() 
 	{
